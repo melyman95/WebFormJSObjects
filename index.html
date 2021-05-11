@@ -5,51 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add Product Form</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
 </head>
 <body>
-    <h1>Add CPU</h1>
+    <h1>Add Vehicle</h1>
 
     <div id="validation-summary">
         <p>Errors here:</p>
     </div>
 
     <form>
-        <label for="part">CPU Name: </label>
-        <input id="part" type="text">
-        <br>
 
-        <label for="price">CPU Price: </label>
-        <input id="price" type="text">
-        <br>
-
-        <label for="make">Manufacturer: </label>
-        <select id="make">
-            <option>Choose an Intel Processor: </option>
-            <option>Intel</option>
-        </select>
+        <label for="make">Make: </label>
+        <input id="make">
         <br>
 
         <label for="model">Model: </label>
-        <select id="model">
-            <option>8088</option>
-            <option>8086</option>
-            <option>286</option>
-            <option>386</option>
-            <option>486</option>
-            <option>Pentium</option>
-            <option>Celeron</option>
-            <option>Core 2 Duo</option>
-            <option>i3</option>
-            <option>i5</option>
-            <option>i7</option>
-            <option>i9</option>
-        </select>
+        <input id="model">
+            
 
-        <input type="checkbox" id="ecc">
-        <label for="ecc">ECC?</label>
-        <br>
+        <label for="year">Year: </label>
+        <input id="year">
 
-        <input type="button" value="Add Processor"> 
+        <label for="cost">Price: </label>
+        <input id="cost">
+
+        <input type="button" value="Add Vehicle"> 
     </form>
+
+    <div id="display">
+
+    </div>
 </body>
 </html>
